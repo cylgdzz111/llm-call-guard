@@ -1,0 +1,45 @@
+# Maven
+/target/
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ / IDEA
+/.idea/
+**/.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+/logs/
+**/logs/
+*.log
+
+# Runtime
+*.pid
+hs_err_pid*
+replay_pid*
+
+# Env
+.env
+.env.*
+
+# Test output
+/test-output/
+
+# Other
+*.swp
+*~

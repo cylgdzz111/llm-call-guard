@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+llm:
+  guard:
+    enabled: true
+    defaults:
+      timeoutMs: 8000
+      retries: 0
+      backoffMs: 200
+      mergeWindowMs: 0
+      lockEnabled: true
+      lockTtlMs: 15000
+      singleflightEnabled: true
+    observability:
+      logEnabled: true
+      includeArgs: false
+      includeResult: false
